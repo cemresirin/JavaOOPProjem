@@ -7,8 +7,8 @@ public class Main {
         System.out.println("Model: " + araba.model);
         System.out.println("Yıl: " + araba.yil);
     }
-}
-class Car {
+    }
+ class Car {
 
     String marka;
     String model;
@@ -19,4 +19,4 @@ class Car {
         this.model = model;
         this.yil = yil;
     }
-}
+    }
