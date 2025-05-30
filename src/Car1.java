@@ -12,6 +12,6 @@ public class Car1 {
 
     public static void main(String[] args) {
         Car1 araba = new Car1("Renault", "Clio", 2025);
-        System.out.println(araba.marka + " " + araba.model + " " + araba.yil);
+
     }
-    }
+}
