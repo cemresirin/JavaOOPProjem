@@ -1,11 +1,11 @@
 class Vehiclee {
-    void start() {
+   public void start() {
         System.out.println("Araç çalıştırılıyor " )  ;
     }
 }
 class CarX extends Vehiclee {
 @Override
-void start() {
+public void start() {
 System.out.println("Araç harekete hazır. " ) ;
 }
 }
