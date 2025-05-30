@@ -8,19 +8,19 @@ public class PolymorphismExample {
     }
 }
 class Animal {
-    void makeSound() {
+    public void makeSound() {
         System.out.println("Animal makes a sound");
     }
 }
 class Cat extends Animal {
     @Override
-    void makeSound() {
+    public void makeSound() {
         System.out.println("Meow!");
     }
 }
 class Dog extends Animal {
     @Override
-    void makeSound() {
+    public void makeSound() {
         System.out.println("Woof!");
     }
 }
